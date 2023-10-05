@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,500&display=swap" rel="stylesheet">
+    <title>Tienda PS5</title>
+</head>
+<body>
+    <header>
+       <h1>Tienda de juegos PS5</h1>  
+    </header>
+       
+
+    <div class="grid-general">
+        <div class="juegos-grid">
+            <div class="grid-item">
+                <div>
+                    <img class="foto" src="./img/elden.jpg" alt="">
+                </div>  
+                <div>
+                    <h2 class="nombre">Elden Ring</h2>
+                    <h2 class="precio">$24000</h2>
+                    <button class="agregar">Agregar al carrito</button>  
+                </div>  
+                
+            </div>
+            <div class="grid-item">
+                <div>
+                <img class="foto" src="./img/fifa.webp" alt=""> 
+                </div>
+                <div>
+                    <h2 class="nombre">EA FC24</h2>
+                    <h2 class="precio">$37000</h2>
+                    <button class="agregar">Agregar al carrito</button>
+                </div>
+                
+            </div>
+            <div class="grid-item">
+                <div>
+                    <img class="foto" src="./img/crash.webp" alt="">
+                </div>
+                <div>
+                    <h2 class="nombre">Crash Bandicoot</h2>
+                    <h2 class="precio">$15000</h2>
+                    <button class="agregar">Agregar al carrito</button>
+                </div>
+                
+            </div>
+            <div class="grid-item">
+                <div >
+                <img class="foto" src="./img/granturismo.webp" alt=""> 
+                </div>
+                <div>
+                    <h2 class="nombre">Gran Turismo 7</h2>
+                    <h2 class="precio">$27000</h2>
+                    <button class="agregar">Agregar al carrito</button>
+                </div>    
+            </div>
+        </div>
+
+        <div>
+            <h2 id="mostrarTotal">Carrito</h2>       
+            <ul id="detallesJuegos"></ul>
+            <div id="total">Total: $0.00</div>
+            <button id="limpiarTotal" disabled>Limpiar Carrito</button>
+            </div> 
+        </div>        
+    </div>
+    
+    <script src="./script.js"></script>
+    <script src="./botonLimpiar.js"></script>
+</body>
+
+</html>
